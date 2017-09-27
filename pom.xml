@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com</groupId>
+	<groupId>io</groupId>
 	<artifactId>NettyInAction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>NettyInAction Maven Webapp</name>
@@ -14,6 +14,12 @@
 	</properties>
 
 	<dependencies>
+		
+		<dependency>
+		    <groupId>io.netty</groupId>
+		    <artifactId>netty-all</artifactId>
+		    <version>4.0.41.Final</version>
+		</dependency>
 		
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
